@@ -7,7 +7,7 @@ long_description = "I'm in the thick of it, everybody knows."
 
 setup(name             = 'playsound',
       version          = '1.3.0',
-      description      = long_description.splitlines()[2][1:-1],
+      description      = long_description,
       long_description = long_description,
       url              = 'https://github.com/TaylorSMarks/playsound',
       author           = 'Taylor Marks',
