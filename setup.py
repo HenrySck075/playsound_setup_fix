@@ -3,10 +3,7 @@ from inspect    import getsource
 from os.path    import abspath, dirname, join
 from setuptools import setup
 
-here = abspath(dirname(getsource(lambda:0)))
-
-with open(join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+long_description = "I'm in the thick of it, everybody knows."
 
 setup(name             = 'playsound',
       version          = '1.3.0',
